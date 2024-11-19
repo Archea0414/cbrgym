@@ -1,5 +1,74 @@
 /* styles.css */
+ body {
+            font-family: "Century Gothic", sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
 
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+
+        main {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: auto;
+            position: relative;
+        }
+
+        .profile-intro h2 {
+            font-size: 24px;
+            margin-top: 20px;
+        }
+
+        .profile-intro p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        .left-image {
+            position: center;
+            object-fit: cover;
+            border-radius: 15px;
+        }
+
+        .mission, .vision, .team {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            position: center;
+        }
+
+        .mission {
+            background-color: #e0f7fa;
+        }
+
+        .vision {
+            background-color: #ffecb3;
+        }
+
+        .team {
+            background-color: #c8e6c9;
+        }
+
+        h3 {
+            margin-top: 10px;
+            font-size: 18px;
+            color: #333;
+        }
 .intro {
   background-color: #f0f0f0; /* Light background color */
   padding: 30px; /* Add padding around the text */
