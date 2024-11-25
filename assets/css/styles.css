@@ -1,95 +1,50 @@
-/* styles.css */
- body {
-            font-family: "Century Gothic", sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-
-        header {
-            background-color: #333;
-            color: white;
-            padding: 20px 0;
-            text-align: center;
-        }
-
-        header nav a {
-            color: white;
-            margin: 0 15px;
-            text-decoration: none;
-        }
-
-        main {
-            padding: 40px 20px;
-            max-width: 1200px;
-            margin: auto;
-            position: relative;
-        }
-
-        .profile-intro h2 {
-            font-size: 24px;
-            margin-top: 20px;
-        }
-
-        .profile-intro p {
-            font-size: 16px;
-            line-height: 1.6;
-        }
-
-        .left-image {
-            position: center;
-            object-fit: cover;
-            border-radius: 15px;
-        }
-
-        .mission, .vision, .team {
-            background-color: #ffffff;
-            border-radius: 8px;
-            padding: 20px;
-            margin: 20px 0;
-            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-            position: center;
-        }
-
-        .mission {
-            background-color: #e0f7fa;
-        }
-
-        .vision {
-            background-color: #ffecb3;
-        }
-
-        .team {
-            background-color: #c8e6c9;
-        }
-
-        h3 {
-            margin-top: 10px;
-            font-size: 18px;
-            color: #333;
-        }
-.intro {
-  background-color: #f0f0f0; /* Light background color */
-  padding: 30px; /* Add padding around the text */
-  border-radius: 10px; /* Rounded corners */
-  text-align: justify; /* Justify the text */
-  font-family: Century Gothic, sans-serif; /* Set Century Gothic font */
-  line-height: 1.6; /* Adjust line spacing */
-  margin-bottom: 30px; /* Add space between sections */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
 }
 
-.intro h1 {
-  font-size: 2.5em; /* Larger heading size */
-  margin-bottom: 20px; /* Add space below heading */
+body {
+    line-height: 1.6;
+    background-color: #f4f4f4;
 }
 
-.intro ul {
-  list-style-type: disc; /* Add bullet points to the list */
-  margin-top: 20px; /* Add space above list */
-  padding-left: 30px; /* Indent the list items */
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
 }
 
-.intro p {
-  margin-bottom: 15px; /* Add space between paragraphs */
+header nav a {
+    color: #fff;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+.hero {
+    background: #f4f4f4;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.hero-image {
+    width: 100%;
+    max-height: 400px;
+}
+
+.intro, .services {
+    text-align: center;
+    margin: 2rem;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
